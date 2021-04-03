@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/post/post",
+    "pages/post/post-detail/post-detail",
+    "pages/post/post-comment/post-comment",
+    "pages/movie/movie",
+    "pages/movie/more-movie/more-movie"
+    
+   
+  ],
+  "sitemapLocation": "sitemap.json",
+  "window": {
+    "navigationBarBackgroundColor": "#4a6141"
+  },
+  "debug": true,
+  "tabBar": {
+    "borderStyle" : "white",
+    "selectedColor" : "#4A6141",
+    "color" : "#333",
+    "backgroundColor" : "#fff",
+    "position" : "bottom",
+    "list" : [
+      {
+        "pagePath" : "pages/post/post",
+        "text": "文章",
+        "iconPath": "pages/images/icon/news.jpg",
+        "selectedIconPath": "pages/images/icon/news-sl.jpg"
+      },
+      {
+        "pagePath" : "pages/movie/movie",
+        "text": "光影",
+        "iconPath": "pages/images/icon/movie.jpg",
+        "selectedIconPath": "pages/images/icon/movie-sl.jpg"
+
+      }
+    ]
+  },
+  "networkTimeout" : {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile" : 20000,
+    "downloadFile" : 20000
+  }
+}
